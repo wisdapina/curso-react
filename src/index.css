@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#navBarText a {
+color: rgb(118, 114, 114);
+
+}
+
+#menu {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+padding: 0;
+}
+
+
+#productos img{
+max-width: 200px;
+max-height: 200px;
+
+}
+
+footer {
+  margin-top: auto;
 }
